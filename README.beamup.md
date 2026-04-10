@@ -40,7 +40,7 @@ Ho creato un generatore automatico per te:
 Vai sul tuo repository GitHub dell'addon -> **Settings > Secrets and variables > Actions** e aggiungi questi tre "Repository secrets":
 
 1.  **`SSH_PRIVATE_KEY`**: Copia e incolla l'intero contenuto della tua **chiave privata** (il file senza `.pub`, es. `cat ~/.ssh/id_ed25519`). Deve includere `-----BEGIN OPENSSH PRIVATE KEY-----` e la fine.
-2.  **`USERNAME_GITHUB`**: Inserisci il tuo nome utente GitHub (es. `qwertyuiop8899`).
+2.  **`USERNAME_GITHUB`**: Inserisci il tuo nome utente GitHub (es. `TUOUSER`).
 3.  **`PROJECT_NAME`**: Scegli un nome per il tuo addon (es. `TUO_USERNAME`). Questo determinerà l'URL finale, quindi mettilo UNIVOCO: `https://TUO_PROGETTO.baby-beamup.club/manifest.json`.
 
 ---
